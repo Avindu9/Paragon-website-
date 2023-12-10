@@ -1,0 +1,186 @@
+/* header */
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin-right: 1em;
+    width: 12em;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.header ul li {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+/* text-form */
+.container {
+    width: 60%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.text input {
+    height: 2em;
+    margin-bottom: 0.5em;
+}
+.text hr{
+    width: 20%;
+}
+.text a{
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4b86f3;
+    width: 20%;
+    height: 3em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.button1:hover {
+    background-color: #fdcc44;
+    color: white;
+}
+
+/* contact */
+
+  .contact {
+    width: 40%;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 8em;
+    font-size: 15px;
+}
+
+#main {
+    width: 46.5%;
+    height: 1.8em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+#subbtn {
+    width: 100%;
+    height: 2.5em;
+    margin-top: 1em;
+    background-color: rgb(208, 137, 86);
+    border-color: rgb(208, 137, 86);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* footer */
+.ft {
+    width: 100%;
+    height: 15em;
+    display: flex;
+    background-color: #fadfa0;
+    margin: 0;
+    padding: 0;
+    gap: 7em;
+    margin-top: 1em;
+}
+
+.ft h4 {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+/* .m {
+    margin-left: 25em;
+} */
+
+.k {
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.k li {
+    font-size: 16px;
+    margin-bottom: 0.2em;
+}
+
+
+.oo {
+    margin-top: 20px;
+}
+
+.oo input {
+    width: 60%;
+    height: 1.8em;
+}
+
+.oo button {
+    width: 5em;
+    height: 1.8em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.oo button:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+}
+
+.in {
+    margin-top: 25px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.in h3 {
+    margin-bottom: 0.5em;
+}
+
+/* @media (min-width: 1024px) {
+
+    .contact {
+        width: 70%;
+        position: relative;
+        transform: translate(50%);
+        top: 20%;
+        left: 15%;
+    }
+
+    .ft {
+        width: 150em;
+    }
+
+    .header {
+        width: 120em;
+    }
+} */

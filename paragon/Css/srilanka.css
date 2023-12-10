@@ -1,0 +1,296 @@
+/* header */
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin-right: 1em;
+    width: 12em;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.header ul li {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* container */
+
+.a {
+    margin-right: 30px;
+}
+
+.bt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bt ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.bt ul li {
+    margin-right: 15px;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.bt ul li a {
+    text-decoration: none;
+}
+
+.bt ul li a:hover {
+    text-decoration: underline;
+}
+
+.b {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.bb {
+    font-size: 25px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.bbb {
+    font-size: 18px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.fv img {
+    padding: 5px;
+    width: 25em;
+    height: 25em;
+    margin-top: 2em;
+    /* width: 600px;
+    height: 400px; */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 5em;
+
+}
+
+.wrappers {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card {
+    width: 20em;
+    height: 20em;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    display: flex;
+    /* align-items: flex-end; 
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5); */
+    margin: 20px;
+    margin-bottom: -20px;
+}
+
+/* .card:hover {
+    transform: translateY(20px);
+  } */
+.card:hover:before {
+    opacity: 1;
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    font-family: cursive;
+}
+
+.card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.card .info button {
+    padding: 0.6rem;
+    outline: #030303;
+    border: black;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin: 10px;
+}
+
+.card .info button:hover {
+    background: dodgerblue;
+    color: black;
+    margin: 20px;
+}
+
+/* 
+  contact */
+#main {
+    width: 46.5%;
+    height: 1.8em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+.contact {
+    width: 40%;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 8em;
+    font-size: 15px;
+}
+
+#subbtn {
+    width: 100%;
+    height: 2.5em;
+    margin-top: 1em;
+    background-color: rgb(208, 137, 86);
+    border-color: rgb(208, 137, 86);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* footer */
+.ft {
+    width: 100%;
+    height: 15em;
+    display: flex;
+    background-color: #fadfa0;
+    margin: 0;
+    padding: 0;
+    gap: 7em;
+    margin-top: 2em;
+}
+
+.ft h4 {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+/* .m {
+    margin-left: 25em;
+} */
+
+.k {
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.k li {
+    font-size: 16px;
+    margin-bottom: 0.2em;
+}
+
+
+.oo {
+    margin-top: 20px;
+}
+
+.oo input {
+    width: 60%;
+    height: 1.8em;
+}
+
+.oo button {
+    width: 5em;
+    height: 1.8em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.oo button:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+}
+
+.in {
+    margin-top: 25px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.in h3 {
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragon</title>
+    <link rel="stylesheet" href="Css/home.css">
+    <style>
+        .contact {
+            width: 40%;
+        }
+
+        .contact textarea {
+            width: 100%;
+            height: 8em;
+            font-size: 15px;
+        }
+
+        #main {
+            width: 46%;
+            height: 1.5em;
+            margin-bottom: 1em;
+            font-size: 15px;
+        }
+
+        #subbtn {
+            width: 100%;
+            height: 2.5em;
+            margin-top: 1em;
+            background-color: rgb(208, 137, 86);
+            border-color: rgb(208, 137, 86);
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        /* liberuary */
+        .libruary {
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+
+        .libruary hr {
+            width: 12em;
+        }
+
+        /* footer */
+        .in {
+            margin-top: 25px;
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+
+        .k a {
+            text-decoration: none;
+        }
+
+        /* 
+        .submenu{
+            display: none;
+        }
+        .header li :hover .submenu{
+            display: block;
+            position: absolute;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <img class="logo" src="Images/N.jpg">
+            <li><label for="">Home</label>
+                <!-- <div class="submenu">
+                    <ul>
+                        <li>Rooms</li>
+                        <li>Restuarent</li>
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="ayurvedacure.php">Ayurveda Crue</a></li>
+            <li><a href="srilanka.php">Srilanka</a></li>
+            <li><a href="login.php">News</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="bookingrequest.php">Booking Request</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="mainimage">
+            <img src="Images/background.jpg" alt="" srcset="" style="width: 100%;">
+        </div>
+        <center>
+            <div class="head">
+                <h1 class="p">OUR HOTEL –
+                    AYURVEDA CURES SINCE 1996</h1>
+                <hr>
+                <p class="note">The Ayurveda Paragon Hotel is about 130 km south of the Sri Lankan capital Colombo. The
+                    small town of Talpe, where we opened our Ayurveda spa hotel in 1996, can be reached from the airport
+                    in
+                    about two hours.</p>
+                <h2 class="r">Light-flooded Ayurveda spa hotel under palm trees</h2>
+                <p class="note">Directly on the palm-lined beach of the Indian Ocean, a light and air-flooded house
+                    awaits
+                    you on arrival, Which will make you feel completely comfortable during your Ayurveda stay. It was
+                    built
+                    under the direction of a student of the renowned tropical architect Geoffrey Bawa. His typical
+                    construction of large, open areas and bright, friendly colors conveys transparency and space and
+                    creates
+                    a wonderfully tropical ambience. The furniture in our inviting foyer are authentic, antique
+                    collectibles
+                    that reflect the grand style of the past centuries.</p>
+            </div>
+        </center>
+
+        <!-- card  -->
+        <div class="wrapper">
+            <div class="card"><img src="Images/mm.jpg">
+                <div class="info">
+                    <p>Ayurveda under palm trees: Our spa hotel with its own herb garden and state-certified pharmacy is
+                        the perfect
+                        place for your Ayurveda cure in Sri Lanka, only a two hours' drive from the airport in Colombo
+                        and directly
+                        located at the Indian Ocean.</p>
+                    <button>Our Ayurveda hotel ></button>
+                </div>
+            </div>
+            <div class="card"><img src="Images/o.jpg">
+                <div class="info">
+                    <p>As individual as our spa guests: Our doctors and therapists tailor the course of your Ayurveda
+                        treatment to
+                        your personal needs. Learn more about the choices of the cure at Ayurveda Paragon here.</p>
+                    <button>Your Ayurveda cure ></button>
+                </div>
+            </div>
+            <div class="card"><img src="Images/p.jpg">
+                <div class="info">
+                    <p>Ayurveda - the knowledge of a healthy and long life - has a tradition going back thousands of
+                        years. As a
+                        holistic naturopathy, Ayurvedic teaching relies on cause-related treatments and actively
+                        involves people
+                        in the individual healing process.</p>
+                    <button>Your Ayurveda cure ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrappers">
+        <div class="card"><img src="Images/Q.JPG">
+            <div class="info">
+                <p>Enjoy Ayurveda, discover a tropical paradise: Sri Lanka will delight you with dreamlike beaches, lush
+                    vegetation, mystical temples and millennia-old cultural sites.</p>
+                <button>Travel destination Sri Lanka ></button>
+            </div>
+        </div>
+        <div class="card"><img src="Images/R.JPG">
+            <div class="info">
+                <p>Health and vitality are priceless. Nevertheless, we would be happy to tell you what an Ayurveda cure
+                    in our spa hotel costs. Here you will find our current price list, attractive offers and useful
+                    information about booking your stay.</p>
+                <button>Prices & booking ></button>
+            </div>
+        </div>
+        <div class="card"><img src="Images/s.jpg">
+            <div class="info">
+                <button>Read More ></button>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="libruary">
+            <h2>IMPRESSIONS</h2>
+            <hr>
+            <img src="" alt="">
+        </div>
+    </center>
+    <!-- conatct -->
+    <center>
+        <form action="addcutomercontact.php" method="post">
+            <div class="contact">
+                <h2>Contact us</h2>
+                <input id="main" name="name" type="text" placeholder="First Name,Last Name" required>
+                <input id="main" name="Email" type="text" placeholder="Email" style="margin-left: 1em;" required>
+                <textarea name="cutomermessage" required>Your Massage</textarea>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">I agree that my data will be saved in the course of my request. you can more
+                    information in our <a href="">privacy policy & Theme of use</a></label>
+                <input type="hidden" name="time1" id="time1">
+                <input type="hidden" name="date1" id="date1">
+                <div class="btn">
+                    <button id="subbtn" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </center>
+
+    </div>
+    <!-- footer -->
+    <div class="ft" style="background-color: #fadfa0;">
+        <div class="in">
+            <h3>Paragon</h3>
+            <img src="Images/fb.jpg" alt="Fb" srcset="">
+            <img src="Images/int.jpg" alt="Int" srcset="">
+        </div>
+        <div class="m">
+            <div class="k">
+                <h4>CONTACT</h4>
+                <li>1002, Galle-Matara Road</li>
+                <li>80615 Talpe, Sri Lanka</li>
+                <li>T +94 91 228 3461</li>
+                <a href="">info@paragonsrilanka.com</a>
+            </div>
+        </div>
+        <div class="n">
+            <div class="k">
+                <h4>AYURVEDA PARAGON</h4>
+                <li>Hotel</li>
+                <li>Ayurveda health center</li>
+                <li>Course of your cure</li>
+                <li>Treatment methods</li>
+                <li>Prices & Booking</li>
+            </div>
+        </div>
+        <div class="o">
+            <div class="k">
+                <h4>NEWSLETTER</h4>
+                <li>Don't miss a thing! Info, news and offers</li>
+                <li>directly from Sri Lanka.</li>
+                <a href="addminlogin.php" id="Careea">Careea</a>
+            </div>
+            <div class="oo">
+                <input type="text" placeholder="Email">
+                <button class="ooo">Sign in</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    const date = new Date();
+
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+
+    let hour = date.getHours();
+    let min = date.getMinutes();
+    let sec = date.getSeconds();
+
+    // This arrangement can be altered based on how we want the date's format to appear.
+    let currentDate = `${year}-${month}-${day}`;
+    let currenttime = `${hour}:${min}:${sec}`;
+
+    document.getElementById('time1').value = currenttime;
+    document.getElementById('date1').value = currentDate;
+</script>
+
+</html>

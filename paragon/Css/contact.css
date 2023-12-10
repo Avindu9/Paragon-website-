@@ -1,0 +1,294 @@
+/* header */
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin-right: 1em;
+    width: 12em;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.header ul li {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+  contact */
+
+/* .contact {
+    width: 40%;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 8em;
+    font-size: 15px;
+}
+
+#main {
+    width: 46.5%;
+    height: 1.8em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+#subbtn {
+    width: 100%;
+    height: 2.5em;
+    margin-top: 1em;
+    background-color: rgb(208, 137, 86);
+    border-color: rgb(208, 137, 86);
+    cursor: pointer;
+    font-size: 18px;
+} */
+
+/* container */
+
+.aa {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.aa h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aa hr {
+    width: 25%;
+    margin-bottom: 2em;
+}
+
+.aaa {
+    font-size: 20px;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.aaa li {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aaa a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.bb {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* broach */
+.btnbroach {
+    width: 15em;
+    height: 2.5em;
+    border-color: #fadfa0;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.btnbroach:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.broach {
+    background-image: url("Images/contactimage.jpg");
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 300px;
+}
+
+.textt {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+/* box */
+.q {
+    width: 25em;
+    height: auto;
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+}
+
+.q hr {
+    width: 40%;
+}
+
+.q a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.q h1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1em;
+}
+
+.w {
+    width: 25em;
+    height: 30em;
+    background-color: rgb(241, 198, 116);
+}
+
+.qq {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2em;
+}
+
+.qq li {
+    margin-bottom: 0.2em;
+}
+
+.im {
+    display: flex;
+    width: 8em;
+    height: 8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+/* contact */
+
+.contact {
+    width: 40%;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 8em;
+    font-size: 15px;
+}
+
+#main {
+    /* width: 46.5%; */
+    height: 1.8em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+#subbtn {
+    width: 100%;
+    height: 2.5em;
+    margin-top: 1em;
+    background-color: rgb(208, 137, 86);
+    border-color: rgb(208, 137, 86);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* footer */
+.ft {
+    width: 100%;
+    height: 15em;
+    display: flex;
+    background-color: #fadfa0;
+    margin: 0;
+    padding: 0;
+    gap: 7em;
+    margin-top: 1em;
+}
+
+.ft h4 {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+/* .m {
+    margin-left: 25em;
+} */
+
+.k {
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.k li {
+    font-size: 16px;
+    margin-bottom: 0.2em;
+}
+
+
+.oo {
+    margin-top: 20px;
+}
+
+.oo input {
+    width: 60%;
+    height: 1.8em;
+}
+
+.oo button {
+    width: 5em;
+    height: 1.8em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.oo button:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+}
+
+.in {
+    margin-top: 25px;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.in h3 {
+    margin-bottom: 0.5em;
+}
+
+@media (min-width: 1024px) {}

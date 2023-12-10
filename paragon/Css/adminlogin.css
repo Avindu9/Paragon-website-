@@ -1,0 +1,56 @@
+/* addminloginform */
+.loginform {
+    width: 25%;
+    height: 25em;
+    background-color: #fadfa0;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginform label {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-bottom: 0.15em; */
+    margin-right: 10em;
+
+}
+
+.loginform input {
+    width: 70%;
+    height: 1.75em;
+    /* margin-bottom: 1em; */
+    font-size: 18px;
+}
+
+
+.username {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginform button {
+    width: 50%;
+    height: 1.75em;
+    /* margin-top: 0.5em; */
+    font-size: 22px;
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginform button:hover {
+    background-color: antiquewhite;
+    color: gray;
+}
